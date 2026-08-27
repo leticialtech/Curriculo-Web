@@ -1,0 +1,150 @@
+body {
+    font-family: Segoe UI, sans-serif;
+    background-color: #fffeff;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: #7d1f8a;
+}
+
+h3 {
+    color: #5d1866;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    font-size: 16px;
+}
+
+
+
+#tela-convite {
+    background: linear-gradient(160deg, #14103d 0%, #4b2ecb 20%, #7d1f8a 55%, #d6127e 85%);
+    text-align: center;
+    padding: 60px 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+#tela-convite h1 {
+    margin-top: 0;
+}
+
+#tela-convite p {
+    color: white;
+}
+
+#imagem-carta {
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+#imagem-carta:hover {
+    transform: scale(1.05);
+}
+
+
+
+#cabecalho-perfil {
+    background: linear-gradient(160deg, #14103d 0%, #4b2ecb 20%, #7d1f8a 55%, #d6127e 85%);
+    padding: 18px 0;
+    color: white;
+}
+
+#cabecalho-conteudo {
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#foto-perfil {
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin-right: 30px;
+}
+
+#texto-cabecalho h1 {
+    margin-bottom: 5px;
+}
+
+
+
+#menu {
+    background-color: #7d1f8a;
+    text-align: center;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+#menu a:hover {
+    background-color: #d6127e;
+}
+
+
+
+.caixa {
+    background-color: white;
+    width: 80%;
+    max-width: 1000px;
+    border: 3px solid #7d1f8a;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+
+
+#tabela-formacao {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabela-formacao th,
+#tabela-formacao td {
+    border: 1px solid #d6127e;
+    padding: 10px;
+    text-align: left;
+}
+
+#tabela-formacao th {
+    background-color: #d6127e;
+    color: white;
+}
+
+#tabela-formacao tr:nth-child(even) {
+    background-color: #e5ddff;
+}
+
+
+
+#rodape {
+    background: linear-gradient(160deg, #14103d 0%, #4b2ecb 20%, #7d1f8a 55%, #d6127e 85%);
+    color: white;
+    text-align: center;
+    padding: 8px 20px;
+    margin-top: 30px;
+}
